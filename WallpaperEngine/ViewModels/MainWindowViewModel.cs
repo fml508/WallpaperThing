@@ -13,7 +13,7 @@ namespace WallpaperEngine.ViewModels
         [ObservableProperty]
         private Control? _currentWallpaperView;
 
-        private string _folderPath = @"C:\Users\lipik\Pictures\Screenshots";
+        private string _folderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures), "Screenshots");
         private string[] _files = Array.Empty<string>();
         private int _currentIndex = 0;
         private DispatcherTimer? _timer;
