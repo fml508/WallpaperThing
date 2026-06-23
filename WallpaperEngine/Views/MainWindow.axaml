@@ -1,0 +1,18 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:WallpaperEngine.ViewModels"
+        x:Class="WallpaperEngine.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        SystemDecorations="None"
+        WindowStartupLocation="Manual"
+        ShowInTaskbar="False"
+        Topmost="False"
+        ExtendClientAreaToDecorationsHint="False"
+        Background="Black">
+
+   <Grid Margin="0">
+    <ContentPresenter Content="{Binding CurrentWallpaperView}" 
+                      HorizontalAlignment="Stretch" 
+                      VerticalAlignment="Stretch" />
+</Grid>
+</Window>

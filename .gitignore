@@ -1,0 +1,7 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.db
+WallpaperEngine/realcugan-ncnn-vulkan-20220728-windows/

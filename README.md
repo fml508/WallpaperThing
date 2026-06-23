@@ -40,3 +40,13 @@ This program uses a clever "layering" technique to turn your desktop background 
 - Z-Order Management: Finally, it forces itself to the very back, ensuring your desktop icons stay visible while your images or videos play smoothly behind them.
 
 
+System Tray & Settings
+----------------------
+The application runs in the background to keep your desktop clean.
+
+- System Tray: You can find the app icon in the system tray (the area next to your clock). If it’s not immediately visible, check the "hidden icons" menu (the small arrow pointing up).
+
+- Control: Right-click the icon to:
+- Open Settings: Configure your wallpaper folder and transition interval.
+- Exit: Safely stop the application and free up system resources.
+
