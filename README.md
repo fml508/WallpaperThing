@@ -48,5 +48,9 @@ The application runs in the background to keep your desktop clean.
 
 - Control: Right-click the icon to:
 - Open Settings: Configure your wallpaper folder and transition interval.
-- Exit: Safely stop the application and free up system resources.
+
+
+Disclaimer
+----------
+Note: This project is an independent, open-source utility and is not affiliated with, authorized, maintained, or endorsed by the official Wallpaper Engine application or its developers.
 
