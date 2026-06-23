@@ -1,0 +1,19 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="WallpaperEngine.Views.SettingsWindow"
+        Title="Beállítások" 
+        Width="400" Height="250"
+        WindowStartupLocation="CenterScreen">
+    
+    <StackPanel Margin="20" Spacing="10">
+        <TextBlock Text="Képmappa elérési útja:" FontWeight="Bold"/>
+        <TextBox Name="PathTextBox" Watermark="C:\Kepek\Mappaja"/>
+        
+        <TextBlock Text="Váltási idő (másodperc):" FontWeight="Bold" Margin="0,10,0,0"/>
+        <NumericUpDown Name="IntervalNumeric" Minimum="1" Maximum="3600" Value="5"/>
+        
+        <Button Name="SaveButton" Content="Mentés és Alkalmazás" 
+                HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"
+                Margin="0,20,0,0" Click="SaveButton_Click"/>
+    </StackPanel>
+</Window>
